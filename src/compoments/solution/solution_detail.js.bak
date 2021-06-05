@@ -1,0 +1,162 @@
+
+
+import React, { Component } from "react"
+
+   class Solution_detail extends Component {
+
+
+
+  render() {
+    return (
+
+      <section id="testimonials" className="alternate">
+        <div className="container">
+          <header className="text-center mb-60">
+            <h2>Testimonials</h2>
+            <p className="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
+            <hr />
+          </header>
+          {/* 
+            Note: remove class="rounded" from the img for squared image!
+          */}
+          <div className="row mb-60">
+            <div className="col-md-4">
+              <div className="testimonial testimonial-bordered p-15">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/2-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
+                  <cite>
+                    Felicia Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="testimonial testimonial-bordered p-15">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/1-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
+                  <cite>
+                    Joana Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="testimonial testimonial-bordered p-15">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/6-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
+                  <cite>
+                    Melissa Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* 
+            Note: remove class="rounded" from the img for squared image!
+          */}
+          <ul className="row clearfix testimonial-dotted list-unstyled">
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/2-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite>
+                    Joana Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/6-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite>
+                    Melissa Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/7-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite>
+                    Stephany Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/8-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite>
+                    Pamela Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/11-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite>
+                    Simina Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+            <li className="col-md-4">
+              <div className="testimonial">
+                <figure className="float-left">
+                  <img className="rounded" src="demo_files/images/people/300x300/12-min.jpg" alt />
+                </figure>
+                <div className="testimonial-content">
+                  <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                  <cite> 
+                    Mihaela Doe
+                    <span>Company Ltd.</span>
+                  </cite>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    );
+  }
+}
+
+
+export default Solution_detail;
