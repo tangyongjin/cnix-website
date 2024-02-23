@@ -23,7 +23,7 @@ class Cix_pic extends Component {
 							</figure>
 							<h4 className="mb-0">交换流量大</h4>
 							<p className="text-muted fs-14">
-								皓宽流量优化平台，为客户提供一跳直达50家以上BGP资源以及高品质端到端网络连接，目前已承载近300Gbps交换流量，国内第一<br />
+								皓宽流量优化平台，为客户提供一跳直达50家以上BGP资源以及高品质端到端网络连接，目前已承载近300Gbps交换流量.<br />
  								<br />
 								<br />	
 							</p>

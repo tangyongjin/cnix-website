@@ -21,7 +21,7 @@ class Footer1  extends  Component {
                                      
                                     </li>
                                     <li className="footer-sprite phone">
-                                        电话: 010-51103600
+                                        电话: 010-67973600
                                     </li>
                                     <li className="footer-sprite email">
                                         <a href="mailto: 技术中心：noc@cnix.com.cn">技术中心: cnix-noc@cnix.com.cn</a>
@@ -89,7 +89,7 @@ class Footer2  extends  Component {
         <div id="footer_copyright" className="copyright">
                     <div className="container">
                         <ul className="float-right m-0 list-inline mobile-block">
-                            <li><a href="#">网站备案号:京ICP备15054904号-1</a></li>
+                            <li><a href="https://beian.miit.gov.cn/">网站备案号:京ICP备15054904号-1</a></li>
                         </ul>
                         &copy;皓宽网络科技有限公司,版权所有
                     </div>
@@ -116,7 +116,3 @@ export default Footer;
 
 
  
-
-
-
-
